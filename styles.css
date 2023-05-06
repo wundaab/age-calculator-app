@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: poppins;
 }
 
 body {
@@ -41,31 +42,11 @@ body {
     flex-grow: 7;
 }
 
-.day {
+.input {
     border: solid 1px black;
 }
 
-.month {
-    border: solid 1px black;
-}
-
-.year {
-    border: solid 1px black;
-}
-
-.day_box {
-    border: solid 1px black;
-    height: 3em;
-    width: 7em;
-}
-
-.month_box {
-    border: solid 1px black;
-    height: 3em;
-    width: 7em;
-}
-
-.year_box {
+.input_box {
     border: solid 1px black;
     height: 3em;
     width: 7em;
@@ -74,8 +55,8 @@ body {
 button {
     border-radius: 50%;
     background-color: black;
-    height: 5em;
-    width: 5em;
+    height: 7em;
+    width: 7em;
     border: none;
 }
 
@@ -94,5 +75,23 @@ hr {
 .output {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+}
+
+.dmy_out {
+    font-size: 5.5rem;
+    line-height: 1em;
+    margin-left: .5em;
+    font-family: poppins-extrabolditalic;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-extrabolditalic;
+    src: url(./assets/fonts/Poppins-ExtraBoldItalic.ttf);
+    font-weight: 800;
 }

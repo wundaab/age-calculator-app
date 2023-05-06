@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    font-size: 1rem;
+    height: 30em;
+    width: 45em;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.DDMMYY {
+    width: 70%;
+    border: solid 1px black;
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divide {
+    border: solid 1px black;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output {
+    border: solid 1px black;
+    flex-grow: 7;
+}
+
+.day {
+    border: solid 1px black;
+}
+
+.month {
+    border: solid 1px black;
+}
+
+.year {
+    border: solid 1px black;
+}
+
+.day_box {
+    border: solid 1px black;
+    height: 3em;
+    width: 7em;
+}
+
+.month_box {
+    border: solid 1px black;
+    height: 3em;
+    width: 7em;
+}
+
+.year_box {
+    border: solid 1px black;
+    height: 3em;
+    width: 7em;
+}
+
+button {
+    border-radius: 50%;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    border: none;
+}
+
+img {
+    background-color: black;
+}
+
+hr {
+    display: inline;
+    width: 70%;
+    border: none; /* remove the border */
+    height: 1px;
+    background-color: black;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

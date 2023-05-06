@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: poppins;
+    font-family: poppins-bold;
 }
 
 body {
@@ -18,11 +18,11 @@ body {
     border: solid 1px black;
     display: flex;
     flex-direction: column;
+    border-radius: 1rem 1rem 30% 1rem;
 }
 
 .DDMMYY {
     width: 70%;
-    border: solid 1px black;
     flex-grow: 2;
     display: flex;
     justify-content: space-around;
@@ -30,7 +30,6 @@ body {
 }
 
 .divide {
-    border: solid 1px black;
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -38,18 +37,25 @@ body {
 }
 
 .output {
-    border: solid 1px black;
     flex-grow: 7;
 }
 
 .input {
-    border: solid 1px black;
+    font-size: .8rem;
+    letter-spacing: .2rem;
 }
 
 .input_box {
     border: solid 1px black;
-    height: 3em;
-    width: 7em;
+    height: 4rem;
+    width: 7rem;
+    font-size: 2em;
+    font-family: poppins-bold;
+    padding-left: 1rem;
+    border-radius: .3rem;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
 }
 
 button {
@@ -93,5 +99,9 @@ hr {
 @font-face {
     font-family: poppins-extrabolditalic;
     src: url(./assets/fonts/Poppins-ExtraBoldItalic.ttf);
-    font-weight: 800;
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
 }

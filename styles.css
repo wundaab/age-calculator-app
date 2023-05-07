@@ -29,7 +29,7 @@ body {
     align-items: center;
     margin-left: 2.5rem;
     margin-top: 2rem;
-    color: hsl(0, 0%, 86%);
+    color: hsl(0, 1%, 44%);
 }
 
 .divide {
@@ -48,7 +48,35 @@ body {
     letter-spacing: .2rem;
 }
 
-.input_box {
+#day {
+    border: solid 1px hsl(0, 0%, 86%);
+    height: 4rem;
+    width: 7rem;
+    font-size: 2em;
+    font-family: poppins-bold;
+    padding-left: 1rem;
+    border-radius: .3rem;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#month {
+    border: solid 1px hsl(0, 0%, 86%);
+    height: 4rem;
+    width: 7rem;
+    font-size: 2em;
+    font-family: poppins-bold;
+    padding-left: 1rem;
+    border-radius: .3rem;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#year {
     border: solid 1px hsl(0, 0%, 86%);
     height: 4rem;
     width: 7rem;
@@ -70,8 +98,9 @@ button {
     border: none;
 }
 
-img {
-    background-color: hsl(259, 100%, 65%);
+button:hover {
+    background-color: hsl(0, 0%, 8%);
+    cursor: pointer;
 }
 
 hr {
